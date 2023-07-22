@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="theme-color" content="#664eff">
+        <meta property="og:site_name" content="Codifyde">
+        <meta property="og:title" content="Codifyde Mirror Project">
+        <meta propety="og:url" content="https://codifyde.org/">
+        <meta property="og:description" content="The home page to Codifyde Mirror Project, built using the Gitea API and some random HTTP library that I've never heard of.">
+        <meta property="og:image" content="https://files.electrohaxz.host/file/cc6439a639f91bef9d667eb1b1ee6c53/main-logo.png">
+
+        <link rel="icon" href="https://files.electrohaxz.host/file/a792a454e1cf26c15a145befc4636634/transparent-icon-white.png">
+
+        <title>Codifyde Mirror Project</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Codifyde Mirror Project</h1>
+
+            <p>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#mirrored" aria-expanded="false" aria-controls="mirrored">
+                    Mirrored Repositories
+                </button>
+            </p>
+
+            <div class="collapse" id="mirrored">
+                <div class="card card-body">
+                    @@REPOSITORIES@@
+                </div>
+            </div>
+
+            <div class="fixed-bottom">
+                <footer class="text-center font-weight-light text-monospace">&copy; 2023 Codifyde | Department of Engineering</footer>
+            </div>
+        </div>
+    </body>
+</html>
