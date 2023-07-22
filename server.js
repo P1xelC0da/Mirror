@@ -6,9 +6,9 @@ const axios = require("axios");
 const fs = require("fs");
 const template = fs.readFileSync("./views/index.html", "utf-8");
 
-const GITEA_API_URL = "https://git.codifyde.org/api/v1";
-const GITEA_ACCESS_TOKEN = "e5166919dfb6b2e741abe99e5d4a3f2d58327082";
-const GITEA_ORGANIZATION = "Mirror";
+const GITEA_API_URL = "";
+const GITEA_ACCESS_TOKEN = "";
+const GITEA_ORGANIZATION = "";
 
 app.get("/", async (request, response) => {
     try {
